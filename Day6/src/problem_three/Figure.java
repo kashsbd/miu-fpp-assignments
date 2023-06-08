@@ -1,2 +1,5 @@
-package problem_three;public class Figure {
+package problem_three;
+
+public interface Figure {
+    void getFigure();
 }
