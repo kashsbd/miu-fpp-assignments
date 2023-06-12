@@ -1,5 +1,5 @@
-package prob2;
+package problem_two;
 
 public interface EmployeeData {
-
+    double getComputedSalary();
 }
