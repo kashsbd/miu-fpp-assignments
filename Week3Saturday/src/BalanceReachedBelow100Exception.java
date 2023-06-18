@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class BalanceReachedBelow100Exception {
+public class BalanceReachedBelow100Exception extends Exception {
+    public BalanceReachedBelow100Exception(String msg) {
+        super(msg);
+    }
 }

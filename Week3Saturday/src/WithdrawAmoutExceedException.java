@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class WithdrawAmoutExceedException {
+public class WithdrawAmoutExceedException extends Exception {
+    public WithdrawAmoutExceedException(String msg) {
+        super(msg);
+    }
 }
